@@ -12,7 +12,7 @@ package com.class16;
 public class Car {
     private float accelaration = 9.16f;
     private String carColor;
-    private boolean automatic;
+    private boolean automatic = true;
     
     public void setCarColor(String color){
         if (color.equalsIgnoreCase("YeLlOw")){
